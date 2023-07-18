@@ -1,4 +1,3 @@
-import java.util.*;
 
 class SlidingWindowMaximum {
 	public static int findMaxSlidingWindow(int[] nums, int w) {
