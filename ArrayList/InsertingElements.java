@@ -2,7 +2,7 @@ package ArrayList;
 import java.util.*;
 public class InsertingElements {
     public static void main(String args[]) {
-		List list = new ArrayList();
+		List<Integer> list = new ArrayList<Integer>();
 		list.add(1);
 		list.add(2);
 		list.add(3);
@@ -14,7 +14,7 @@ public class InsertingElements {
 		list.add(1, 50); // This will add 50 at index 1. All the other elements will be shifted to right.
 		System.out.println(list);
 
-		List newList = new ArrayList(); // Creating a new List which will be added to original list.
+		List<Integer> newList = new ArrayList<Integer>(); // Creating a new List which will be added to original list.
 		newList.add(150);
 		newList.add(160);
 
